@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+body {
+    margin: 0;
+}
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.left-col {
+    width: 200px;
+    position: relative;
+}
+
+.click {
+    background-color: #4f889f;
+}
+
+.click:hover {
+    background-color: #4f889f;
+}
+
+.click, .links {
+    padding: 12px;
+    font-size: 1.2em;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    outline: none;
+    width: 200px;
+    color: black;
+    transition: 0.3s;
+}
+
+.list {
+    position: absolute;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: 0.3s;
+}
+
+.newlist {
+    transform: scaleY(1);
+}
+
+.links {
+    background-color: #f4f4f4;
+}
+
+.links:hover {
+    background-color: cadetblue;
+    transform: scale(1.1);
+}
+
+header {
+    box-sizing: border-box;
+    background-color: #24252A;
+    margin: 0;
+    padding: 30px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    /*background-color: skyblue;
+    height: 100px;
+    text-align: center;
+    color: #4f889f;
+    padding: 1px;*/
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links, li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+li, a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container div {
+    padding: 1%;
+    box-sizing: border-box;
+    min-height: 500px;
+}
+
+.left-col, .right-col {
+    background-color: #f4f4f4;
+    width: 25%;
+    float: left;
+}
+
+.center-col {
+    background-color: #0088a9;
+    width: 50%;
+    float: left;
+}
+
+.footer {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #24252A;
+    text-align: center;
+    height: 50px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    clear: both;
+    color: #edf0f1;
+}
